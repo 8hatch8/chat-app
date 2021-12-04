@@ -89,3 +89,8 @@ select {
   height: 80px;
   width: 100%;
 }
+
+/* Validationによって生成されたエラーメッセージのボックスのみ消去 */
+.field_with_errors {
+  display: contents;
+}
